@@ -27,7 +27,7 @@ const App = ({ onSearch, onClick }) => {
     <div className="container">
       <SearchBar onSearch={handleSearch} />
 
-      <StockDisplay data={data} searchTerm={searchTerm} />
+      {/* <StockDisplay data={data} searchTerm={searchTerm} /> */}
       <div className="btn-container">
         <button
           id="top_gainer_btn"

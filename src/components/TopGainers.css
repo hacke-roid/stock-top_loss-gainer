@@ -39,9 +39,12 @@
 }
 
 @media (max-width: 480px) {
+    .top-container{
+        width: 80%;
+    }
     .gain-conatiner{
         height: 150px;
-        width: 130px;
+        width: 134px;
         display: flex;
         /* align-items: center; */
         justify-content: center;
