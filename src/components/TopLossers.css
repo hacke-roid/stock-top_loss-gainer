@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container{
+    /* border: 2px solid black; */
+    width: 80%;
+}
+
+.top-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.loss-container{
+    border: 3px solid red;
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.losser_icon {
+    color: red;
+    font-size: large;
+}
