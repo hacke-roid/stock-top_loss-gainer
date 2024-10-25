@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchBar.css";
 import { useState } from "react";
 import fetching from "./Api";
+import { FaMagnifyingGlassDollar } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
 const SearchBar = ({ onSearch }) => {
@@ -57,8 +58,9 @@ const SearchBar = ({ onSearch }) => {
     <div className="container">
       <div className="mainContainer">
         <div className="Search-container">
-          <section>
+          
             <form onSubmit={handleSubmit}>
+            <div className="input-format">
               <input
                 type="text"
                 placeholder="Search..."
@@ -66,11 +68,14 @@ const SearchBar = ({ onSearch }) => {
                 value={inputValue}
                 onChange={handleChange}
               />
+              <FaMagnifyingGlassDollar />
+              </div>
+              <div>
               <button type="submit" className="search-button">
                 Search
               </button>
+              </div>
             </form>
-          </section>
         </div>
       </div>
       <div className="filter-text">
