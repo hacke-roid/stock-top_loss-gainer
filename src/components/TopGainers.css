@@ -41,11 +41,11 @@
 @media (max-width: 480px) {
     .gain-conatiner{
         height: 150px;
-        width: 150px;
+        width: 130px;
         display: flex;
         /* align-items: center; */
         justify-content: center;
         gap: 5px;
-        font-size: small;
+        font-size: x-small;
     }
 }
