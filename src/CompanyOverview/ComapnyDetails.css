@@ -58,3 +58,33 @@ h3{
 p{
     padding: 0px 10px;
 }
+
+@media (max-width: 480px) {
+    .CompanyOverview_background {
+      margin: 20px; /* Reduce margin for smaller screens */
+    }
+  
+    .company_overview {
+      width: 90%; /* Adjust width to fit smaller screens */
+      margin: 0 auto; /* Center the container */
+    }
+  
+    .img_container {
+      height: 250px; /* Reduce height for smaller screens */
+    }
+  
+    img {
+      width: 100%; /* Make image responsive */
+      height: 100%; /* Adjust height to container */
+      border-radius: 15px; /* Slightly smaller border-radius for mobile */
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2em; /* Adjust font sizes for readability on mobile */
+    }
+  
+    p {
+      font-size: 1em; /* Adjust paragraph font size */
+      padding: 0 5px; /* Reduce padding for smaller screens */
+    }
+  }
