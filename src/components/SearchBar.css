@@ -101,6 +101,7 @@
         width: 100px;
         font-size: small;
         height: 45px;
+        border: 2px solid gray;
     }
     form{
         width: 100%;
